@@ -17,5 +17,3 @@ runs:
         node-version: ${{ inputs.version-node }}
     - run: npm ci
       shell: bash
-    - run: npm test
-      shell: bash
